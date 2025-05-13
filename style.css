@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  height: 90vh;
+  background-color: white;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: grey;
+}
+
+label {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+input::placeholder {
+  color: black;
+}
+
+input:hover,
+select:hover {
+  background-color: lightslategray;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid dodgerblue;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+p {
+  color: snow;
+}
+
+option {
+  color: black;
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+    height: auto;
+    box-shadow: none;
+  }
+
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  label {
+    font-size: 13px;  /* Adjusting label font size for smaller screens */
+  }
+}
+}
