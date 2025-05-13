@@ -98,7 +98,7 @@ p {
 }
 
 option {
-  color: grey;
+  color: lightgrey;
 
 @media (max-width: 600px) {
   .form-container {
