@@ -60,16 +60,16 @@ select {
   font-family: 'Poppins', sans-serif;
   transition: background-color 0.3s ease;
 }
-
+select{
+  color: grey;
+}
 input::placeholder {
   color: grey;
 }
-select{
-  color:grey;
-}
+
 input:hover,
 select:hover {
-  background-color: ligtgrey;
+  background-color: ligtgray;
 }
 
 input:focus,
