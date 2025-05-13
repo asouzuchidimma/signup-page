@@ -69,7 +69,7 @@ select{
 }
 input:hover,
 select:hover {
-  background-color: lightslategray;
+  background-color: ligtgrey;
 }
 
 input:focus,
