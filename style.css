@@ -62,9 +62,11 @@ select {
 }
 
 input::placeholder {
-  color: black;
+  color: grey;
 }
-
+seleect{
+  color:grey;
+}
 input:hover,
 select:hover {
   background-color: lightslategray;
@@ -82,7 +84,7 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -96,7 +98,7 @@ p {
 }
 
 option {
-  color: black;
+  color: grey;
 
 @media (max-width: 600px) {
   .form-container {
